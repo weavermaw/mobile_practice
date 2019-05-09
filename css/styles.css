@@ -4,6 +4,10 @@
  Format: JQuery
 */
 
+/*
+	Purpose: This is a generic design file for basic styling.
+*/
+
 	html, h1, h2, h3, h4, h5, h6, ::before, ::after, ui, 
 	ul, li, form, input, section, p, article, label, a, body{
 		content: "";
@@ -15,11 +19,9 @@
 	html{
 		height: 100%;
 		width: 100%;
-		background-color: 0;
 	}
 	
 	header{
 		width: 100%;
-		height: 5em;
-		background-color: 0;
+		height: 3.75em; /* 60px/16=3.75em */
 	}
