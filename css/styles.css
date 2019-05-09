@@ -1,0 +1,17 @@
+/*
+ Created By: Matthew Weaver
+ Date: May 9, 2019
+ Format: JQuery
+*/
+
+	html, h1, h2, h3, h4, h5, h6, ::before, ::after, ui, 
+	ul, li, form, input, section, p, article, label, a{
+		content: "";
+		padding: "";
+		border: "";
+		margin: "";
+	}
+	
+	html{
+		background: rgb(125, 125, 145);
+	}
