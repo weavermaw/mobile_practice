@@ -7,22 +7,32 @@
 /*
 	Purpose: This is a styling file for mobile viewing.
 */
-
-@media min-width(200px) and max-width(600px){
 	
-	@media screen and (orientation: portrait){
+@media screen and (orientation: portrait){
+	
+	@media screen and max-width(500px){
 		html, h1, h2, h3, h4, h5, h6, ::before, ::after, ui, 
 		ul, li, form, input, section, p, article, label, a, body, footer{
-			font-size: 2vw;
+			font-size: 3vw;
 			font-variant: arial;
 		}
 		
 		header{
-			background-color: rgby(100, 100, 25);
+			background-color: rgb(100, 100, 25);
+			height: 3.75em; /* 60px/16=3.75em */
+		}
+
+		header h1{
+			color: #fff;
+			padding: .5em;
+			width: 2.5em;
 		}
 	}
+}
 	
-	@media screen and (orientation: landscape){
+@media screen and (orientation: landscape){
+	
+	@media screen and max-width(500px){
 		html, h1, h2, h3, h4, h5, h6, ::before, ::after, ui, 
 		ul, li, form, input, section, p, article, label, a, body, footer{
 			font-size: 2vw;
@@ -30,8 +40,14 @@
 		}
 		
 		header{
-			background-color: rgby(40, 80, 60);
+			background-color: rgb(40, 80, 60);
+			height: 3.75em; /* 60px/16=3.75em */
 		}
-		
+	
+		header h1{
+			color: #fff;
+			padding: .5em;
+			width: 2.5em;
+		}
 	}
 }
