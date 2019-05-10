@@ -10,10 +10,9 @@
 	
 @media screen and (orientation: portrait){
 	
-	@media screen and max-width(500px){
 		html, h1, h2, h3, h4, h5, h6, ::before, ::after, ui, 
 		ul, li, form, input, section, p, article, label, a, body, footer{
-			font-size: 3vw;
+			font-size: 3vw; /* 10% of screensize */
 			font-variant: arial;
 		}
 		
@@ -27,15 +26,14 @@
 			padding: .5em;
 			width: 2.5em;
 		}
-	}
+
 }
 	
 @media screen and (orientation: landscape){
 	
-	@media screen and max-width(500px){
 		html, h1, h2, h3, h4, h5, h6, ::before, ::after, ui, 
 		ul, li, form, input, section, p, article, label, a, body, footer{
-			font-size: 2vw;
+			font-size: 2vw; /* 10% of screensize */
 			font-variant: arial;
 		}
 		
@@ -49,5 +47,5 @@
 			padding: .5em;
 			width: 2.5em;
 		}
-	}
+
 }

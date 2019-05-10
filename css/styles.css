@@ -26,6 +26,15 @@
 		height: 3.75em; /* 60px/16=3.75em */
 	}
 	
+	header h1{
+		position:relative;
+		background-attachment: center;
+	}
+	
+	header h1 img{
+		
+	}
+	
 	body{
 		background-color: #eee;
 	}
