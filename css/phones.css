@@ -8,12 +8,17 @@
 	Purpose: This is a styling file for mobile viewing.
 */
 
-@media min-width(200px) max-width(600px){
+@media min-width(200px) and max-width(600px){
+	
 	@media screen and (orientation: portrait){
 		html, h1, h2, h3, h4, h5, h6, ::before, ::after, ui, 
 		ul, li, form, input, section, p, article, label, a, body, footer{
 			font-size: 2vw;
 			font-variant: arial;
+		}
+		
+		header{
+			background-color: rgby(100, 100, 25);
 		}
 	}
 	
@@ -23,5 +28,10 @@
 			font-size: 2vw;
 			font-variant: arial;
 		}
+		
+		header{
+			background-color: rgby(40, 80, 60);
+		}
+		
 	}
 }
